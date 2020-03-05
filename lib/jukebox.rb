@@ -36,6 +36,7 @@ end
 
 
 def run 
+binding.pry
 help
 answer = gets.strip
   if answer == exit 
