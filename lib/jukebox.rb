@@ -39,10 +39,13 @@ def run(songs)
 puts "Please enter a command:"
  answer = gets.strip 
   if answer == "exit"
-  exit_jukebox 
-elsif answer == "help"
-help
-
+    exit_jukebox 
+  elsif answer == "help"
+    help
+  elsif answer == "list"
+    list
+  elsif answer == "play"
+    play
   end
 end
 
