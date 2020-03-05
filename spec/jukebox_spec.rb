@@ -126,3 +126,11 @@ describe "CLI Jukebox" do
   end
 
 end
+
+def run 
+binding.pry  
+
+
+
+end
+
