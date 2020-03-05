@@ -38,12 +38,12 @@ end
 def run(songs) 
  help 
  answer = gets.strip 
-if answer == "exit"
+  if answer == "exit"
   exit_jukebox 
 elsif answer == "help"
 help
 
-
+  end
 end
 
 
