@@ -45,7 +45,7 @@ puts "Please enter a command:"
   elsif answer == "list"
     list
   elsif answer == "play"
-    play
+    play(songs)
   end
 end
 
