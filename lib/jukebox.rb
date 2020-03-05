@@ -37,7 +37,7 @@ end
 
 def run 
  
-binding.pry
+
 
 
 end
