@@ -42,6 +42,7 @@ puts "Please enter a command:"
     exit_jukebox 
   elsif answer == "help"
     help
+    binding.pry
   elsif answer == "list"
     list
   elsif answer == "play"
