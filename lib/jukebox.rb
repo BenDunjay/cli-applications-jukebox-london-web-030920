@@ -37,7 +37,10 @@ end
 
 def run 
 help
-gets.strip
+answer = gets.strip
+  if answer == exit 
+    return exit_jukebox
+  
   binding.pry
   
 end
