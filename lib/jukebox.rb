@@ -35,6 +35,12 @@ def exit_jukebox
 end
 
 
+def run 
+ 
+binding.pry
+
+
+end
 
 
 
