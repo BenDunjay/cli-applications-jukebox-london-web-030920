@@ -36,8 +36,9 @@ end
 
 
 def run 
-
-  
+help
+gets.strip
+  binding.pry
   
 end
 
